@@ -10,8 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-backend-cpu": "^4.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
+    "@tensorflow/tfjs-converter": "^4.4.0",
+    "@tensorflow/tfjs-core": "^4.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10",
+    "web-vitals": "^3.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -22,5 +32,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "vite": "^4.3.2"
+  },
+  "peerDependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-backend-cpu": "^4.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
+    "@tensorflow/tfjs-converter": "^4.4.0",
+    "@tensorflow/tfjs-core": "^4.4.0"
   }
 }
